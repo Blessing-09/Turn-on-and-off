@@ -1,6 +1,27 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap');
+
+
+
 .container {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+}
+
+button {
+    background-image: linear-gradient(green, grey);
+    transform: scale(2.5, 2.5);
+    border: 2px outset grey;
+    color: rgb(244, 214, 79);
+    font-family: 'Rubik Puddles', sans-serif;
+}
+.switchoff {
+    color: rgb(70, 57, 57);
+}
+
+button:active {
+    transform: scale(2.4);
+    color: aliceblue;
+    opacity: 0.5;
 }
